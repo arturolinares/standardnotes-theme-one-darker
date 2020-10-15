@@ -129,6 +129,22 @@
   color: #949494;
 }
 
+.CodeMirror .cm-header-1 {
+  margin-left: -1.3em;
+}
+.CodeMirror .cm-header-2 {
+  margin-left: -2em;
+}
+.CodeMirror .cm-header-3 {
+  margin-left: -2.5em;
+}
+.CodeMirror .cm-header-4 {
+  margin-left: -3.1em;
+}
+.CodeMirror .cm-header-5 {
+  margin-left: -3.8em;
+}
+
 .CodeMirror .cm-link.cm-variable-2, .CodeMirror .cm-url.cm-variable-2,
 .CodeMirror .cm-link,
 .CodeMirror .cm-string,
@@ -191,6 +207,7 @@
   padding-right: 20px;
   opacity: 0.2;
   flex-direction: row-reverse;
+  font-family: 'SF pro Display', sans-serif;
 }
 
 #editor-menu-bar .left, .sn-component .sk-app-bar .left {
@@ -211,7 +228,7 @@
 #notes-column .note>.name, .notes .note>.name {
   font-size: 14px;
   font-weight: 500;
-  font-family: 'SF Pro Display',sans-serif;
+  font-family: 'SF Pro Display', sans-serif;
   white-space: nowrap;
 }
 
@@ -230,4 +247,9 @@
 
 .selected .faded {
   opacity: 0.85;
+}
+
+.CodeMirror .CodeMirror-code .cm-comment {
+  background: var(--highlight-color);
+  color: var(--foreground-1);
 }
