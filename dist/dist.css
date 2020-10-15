@@ -4,12 +4,13 @@
   --foreground-1: #191a19;
   --foreground-2: #191a19;
   --foreground-3: #737373;
-  --highlight-color: #2c313a;
+  --highlight-color: #ececec;
   --neutral-color: #72767e;
   --danger-color: #cc241d;
   --success-color: #458588;
   --warning-color: #d65d0e;
   --border-color: #f7f7f7;
+  --font-family: "iA Writer Duo V", "Iter", "SF Pro",Monaco,Menlo,Courier,monospace;
   /* Footer */
   --footer-bar-border-top-color: 0;
   --sn-stylekit-info-color: var(--highlight-color);
@@ -46,6 +47,7 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  --sn-stylekit-sans-serif-font: var(--font-family);
   /* Note flags */
   /* Note selected */
   /* Sidebar note properties: Dates, tags, etc. */
@@ -58,7 +60,7 @@
 
 
 .CodeMirror, .CodeMirror-fullscreen, .gKsMQS, .gKsMQS p, .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like  {
-  font-family: "iA Writer Duo V", "Iter", "SF Pro",Monaco,Menlo,Courier,monospace;
+  font-family: var(--font-family);
   line-height: 25px;
   font-feature-settings: "liga" 0, "calt" 0;
   letter-spacing: 0px;
@@ -96,6 +98,7 @@
 .CodeMirror .cm-header-5, .gKsMQS h5,
 .CodeMirror .cm-header-6  .gKsMQS h6 {
   font-size: 14px;
+  font-weight: bold;
 }
 
 .CodeMirror .cm-formatting-header {
@@ -113,11 +116,11 @@
   border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-3, .gKsMQS h3 span {
-  color: rgb(214, 145, 79);
+  color: rgb(175, 118, 64);
   border-bottom: 2px solid;
 }
 .CodeMirror .cm-header-4, .gKsMQS h4 span {
-  color: #8ac55d;
+  color: #648f44;
 }
 .CodeMirror .cm-header-5, .gKsMQS h5 span {
   color: rgb(143, 143, 143);
@@ -223,4 +226,8 @@
 .dropdown-menu {
   right: 0;
   left: unset;
+}
+
+.selected .faded {
+  opacity: 0.85;
 }
