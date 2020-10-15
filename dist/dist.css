@@ -47,7 +47,6 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-1);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-  --sn-stylekit-sans-serif-font: var(--font-family);
   /* Note flags */
   /* Note selected */
   /* Sidebar note properties: Dates, tags, etc. */
