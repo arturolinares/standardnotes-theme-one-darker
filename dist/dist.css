@@ -10,7 +10,7 @@
   --success-color: #458588;
   --warning-color: #d65d0e;
   --border-color: #f7f7f7;
-  --font-family: "iA Writer Duo V", "Iter", "SF Pro",Monaco,Menlo,Courier,monospace;
+  --font-family: "iA Writer Duo V Regular", "iA Writer Duo V", "SF Pro", Monaco, Menlo, monospace;
   /* Footer */
   --footer-bar-border-top-color: 0;
   --sn-stylekit-info-color: var(--highlight-color);
