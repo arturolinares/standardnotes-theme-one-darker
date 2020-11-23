@@ -10,7 +10,9 @@ The theme uses [iA Writer Duo](https://github.com/iaolo/iA-Fonts/) font (as show
 
 ## Installation
 
-Open "Extensions" in Standard Notes and click "Import Extension". Enter the following URL as Extension Link and press Enter:
+1. Install the **iA Writer Duo** font from here: [https://github.com/iaolo/iA-Fonts/](https://github.com/iaolo/iA-Fonts/).
+
+2. Open "Extensions" in Standard Notes and click "Import Extension". Enter the following URL as Extension Link and press Enter:
 
 ```
 https://listed.to/p/m0zMIUhElM
@@ -18,6 +20,6 @@ https://listed.to/p/m0zMIUhElM
 
 ## Preview
 
-![One Light Lighter theme for Standard Notes with Rich Markdown Editor](preview.png)
+![One Light Lighter theme for Standard Notes with Rich Markdown Editor](preview2.png)
 <br>
-![One Light Lighter theme for Standard Notes with Markdown Minimist editor](preview2.png)
+![One Light Lighter theme for Standard Notes with Markdown Minimist editor](preview.png)
