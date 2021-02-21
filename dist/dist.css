@@ -253,3 +253,7 @@
   background: var(--highlight-color);
   color: var(--foreground-1);
 }
+
+.token.token.keyword {
+  color: #086dd6;
+}
