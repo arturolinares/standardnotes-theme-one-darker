@@ -257,3 +257,15 @@
 .token.token.keyword {
   color: #086dd6;
 }
+
+#sn-component .react-trello-lane>header textarea {
+  color: rgb(224, 84, 96);
+}
+
+#sn-component .react-trello-lane>header button {
+  color: var(--foreground-1);
+}
+
+#sn-component .react-trello-card {
+  border: 1px solid #e3e3e3 !important;
+}
